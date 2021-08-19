@@ -9,7 +9,7 @@ public class Main {
 		Cachorro animal3 = new Cachorro("Einstein", 10);
 		Gato animal4 = new Gato("Edward", 5);
 		
-		System.out.println((animal1.quantidadeDeRacao()+animal2.quantidadeDeRacao()+animal3.quantidadeDeRacao()+animal4.quantidadeDeRacao())+"kg");
+		System.out.println("Todos animais juntos consomem: "+(animal1.quantidadeDeRacao()+animal2.quantidadeDeRacao()+animal3.quantidadeDeRacao()+animal4.quantidadeDeRacao())+"kg");
 
 	}
 
