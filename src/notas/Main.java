@@ -15,10 +15,16 @@ public class Main {
 		System.out.print("Digite o número final: ");
 		int fin = reader.nextInt();
 		int rest = fin;
-		while (rest>0) {
-			for (int i = init; i <= 6; i++) {
-				System.out.print(nome[i]+" ");
+		int cont = 0;
+		int i = init;
+		while(i<=fin) {
+			System.out.print(nome[i]+" ");
+			cont++;
+			if(i==6) {
+				fin = fin - cont;
+				i = -1;
 			}
+			i++;
 		}
 
 	}
